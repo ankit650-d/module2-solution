@@ -6,26 +6,27 @@ h1{
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	font-size: 60px;
 }
 .beta{
 	border:1px solid black;
 	background-color: gray;
 	float:left;
-	height:200px;
-	overflow: auto;
 }
-p{
+.heading{
 	border:1px solid black;
 	width:150px;
 	text-align: center;
-	height: 60px;
-	padding-top: 5px;
+	padding: 5px;
 	float:right;
 	font-size:1.75em;
 }
-section{
+.pi{
 	clear:right;
-	padding:5px;
+	padding-left:10px;
+	padding-right: 10px;
+	padding-top:5px;
+	padding-bottom: 4px;
 }
 #two {
 	background:red;
@@ -47,6 +48,9 @@ section{
 		width:33%;
 		margin:0.166%;
 	}
+	.row{
+		display:flex;
+	}
 }
 /*for tablet version*/
 @media(min-width: 768px) and (max-width: 991px){
@@ -63,5 +67,6 @@ section{
 @media(max-width: 767px){
 	.col-sm-12{
 		width:90%;
-		margin: 2.5%;
+		margin:5%;
 	}
+}
